@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sps-barcelona-2019-client-side-solution",
+    "id": "eb232b53-cf8e-4e55-bb05-b1a4fc1a1b60",
+    "version": "1.0.0.4",
+    "includeClientSideAssets": false,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/sps-barcelona-2019.sppkg"
+  }
+}

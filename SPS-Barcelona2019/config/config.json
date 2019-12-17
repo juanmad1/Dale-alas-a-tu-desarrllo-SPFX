@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "efficient-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/efficient/EfficientWebPart.js",
+          "manifest": "./src/webparts/efficient/EfficientWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "node_modules/jquery/dist/jquery.min.js"
+  },
+  "localizedResources": {
+    "EfficientWebPartStrings": "lib/webparts/efficient/loc/{locale}.js"
+  }
+}
